@@ -3,7 +3,7 @@
 # Pretend "build" script for spinnaker-demo project...
 # 
 # Expects release version as argument (defaults to "Unknown")
-
+echo "Lets deploy"
 version=0.1.1
 release=$1
 fullversion="${version}-${release:-unknown}"
