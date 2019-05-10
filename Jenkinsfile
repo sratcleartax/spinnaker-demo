@@ -4,6 +4,7 @@ pipeline {
         BUCKET = credentials('jenkins-aws-s3-spinnaker-demo-bucket')
         ACCESS_KEY_ID = credentials('jenkins-aws-s3-spinnaker-demo-access-key-id')
         SECRET_ACCESS_KEY = credentials('jenkins-aws-s3-spinnaker-demo-secret-access-key')
+        S3_REGION = credentials('jenkins-aws-s3-spinnaker-demo-region')
     }
     stages {
         stage('Preliminary Tests') {
